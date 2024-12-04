@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" href="./files/style.css">
+    <script src="./Cool snake game CS290_files/script.js.download"></script>
+    <script src="./snakeGame.js" defer></script>
+    <title>Cool snake game CS290 :)</title>
+</head>
+
+<body>
+<header>
+    <h1 class="title">Snake</h1>
+    <div class="gamemode-dropdown">
+        <label for="dropdown">Gamemode:</label>
+        <select id="dropdown" name="gamemode_options">
+            <option value="gamemode_1">Placeholder 1</option>
+            <option value="gamemode_2">Placeholder 2</option>
+            <option value="gamemode_3">Placeholder 3</option>
+        </select>
+    </div>
+</header>
+
+<div class="content-container">
+	
+    <div id="game-container">
+        <canvas id="gameCanvas" width="272" height="272"></canvas>
+    </div>
+
+    <aside class="leaderboard-display">
+        <h2 class="leaderboard-title">Leaderboard</h2>
+        <ul class="leaderboard-list">
+            <li class="leaderboard-entry">
+                <span class="rank">1.</span>
+                <span class="player-name">Player1</span>
+                <span class="score">12345</span>
+            </li>
+            <li class="leaderboard-entry">
+                <span class="rank">2.</span>
+                <span class="player-name">Player2</span>
+                <span class="score">1234</span>
+            </li>
+            <li class="leaderboard-entry">
+                <span class="rank">3.</span>
+                <span class="player-name">Player3</span>
+                <span class="score">123</span>
+            </li>
+        </ul>
+        <p><i>so on and so forth</i></p>
+    </aside>
+</div>
+</body>
+</html>
